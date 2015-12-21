@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="public_amedi" name="admin/dichvu/index">
+        <put-attribute name="body" value="/WEB-INF/views/dichvu/index.jsp"/>
+    </definition>
+<definition extends="default" name="admin/dichvu/list">
+        <put-attribute name="body" value="/WEB-INF/views/dichvu/list.jspx"/>
+    </definition>
+<definition extends="default" name="admin/dichvu/show">
+        <put-attribute name="body" value="/WEB-INF/views/dichvu/show.jspx"/>
+    </definition>
+<definition extends="default" name="admin/dichvu/create">
+        <put-attribute name="body" value="/WEB-INF/views/dichvu/create.jspx"/>
+    </definition>
+<definition extends="default" name="admin/dichvu/update">
+        <put-attribute name="body" value="/WEB-INF/views/dichvu/update.jspx"/>
+    </definition>
+</tiles-definitions>

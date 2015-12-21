@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_newway_domain_Services" object="${services}" path="/dichvu" z="vgj6NSxfN4f7UjoXbzXvoJ3mP0c=">
+        <field:display field="id_parent" id="s_com_newway_domain_Services_id_parent" object="${services}" z="5rkyRZ/aQX5mSLy6WPxse9pkgPk="/>
+        <field:display field="name" id="s_com_newway_domain_Services_name" object="${services}" z="DbDJAL2aLQUtFcnSQHRv9v/eN+c="/>
+        <field:display field="icon_class" id="s_com_newway_domain_Services_icon_class" object="${services}" z="zgkXhGqw7+Eczk6MxPwH09yzTcM="/>
+    </page:show>
+</div>
